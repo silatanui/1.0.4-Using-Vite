@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "user": "Alice",
+      "content": "Hello, world!",
+      "likes": 10,
+      "comments": ["Nice post!", "Welcome!"]
+    },
+    {
+      "id": 2,
+      "user": "Bob",
+      "content": "React is awesome!",
+      "likes": 25,
+      "comments": ["Totally agree!", "Yes, it is!"]
+    }
+  ]
+  

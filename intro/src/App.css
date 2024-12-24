@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+
+
+
+/* Global Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Outfit, sans-serif;
+  background-color: #f4f4f9;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  background-color: #f4f4f9;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #242748;
+  color: white;
+}
+
+.header .logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  background-color: #444;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 50px;
+}
+
+.hero h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.hero-image {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* About Section */
+.about {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.about-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 1.2em;
+}
+
+/* Services Section */
+.services {
+  background-color: #ecf0f1;
+  padding: 50px;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+  font-size: 1.5em;
+}
+
+.service-item p {
+  font-size: 1.1em;
+}
+
+/* Departments Section */
+.departments {
+  padding: 50px;
+}
+
+.department-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.department-item {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 30%;
+  text-align: center;
+}
+
+/* Doctors Section */
+.doctors {
+  padding: 50px;
+  background-color: #f8f9fa;
+}
+
+.doctor-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.doctor-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px;
+  background-color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.contact-form button {
+  padding: 15px;
+  width: 100%;
+  background-color: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #444;
+}
+
+/* Feedback Section */
+.feedback {
+  padding: 50px;
+  background-color: #ecf0f1;
+}
+
+.feedback-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feedback-item {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 30%;
+  text-align: center;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #242748;
+  color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin: 5px 0;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
+}
